@@ -59,12 +59,19 @@ kodekloud-engineer-linux-solutions/
 │   ├── task-22-gpg-data-encryption-decryption-ststor01.md
 │   ├── task-23-configure-logrotate-httpd-all-servers.md
 │   ├── task-24-configure-iptables-backup-server.md
- ├── LEVEL03/
-    🚧 **Coming Soon**
-
-    ├── LEVEL04/
-    
-    🚧 **Coming Soon**
+├── LEVEL03/
+│   ├── task-01-configure-apache-url-redirects-stapp03.md
+│   ├── task-02-configure-sftp-server-stapp02.md
+│   ├── task-03-install-configure-tomcat-server-stapp03.md
+│   ├── task-04-troubleshoot-apache-service-stapp01.md
+│   ├── task-05-restrict-apache-port-iptables-all-servers.md
+│   ├── task-06-setup-nginx-reverse-proxy-apache-stbkp01.md
+│   ├── task-07-configure-apache-basic-auth-stapp03.md
+│   ├── task-08-troubleshoot-apache-service-unavailability-stapp01.md
+│   ├── task-09-configure-apache-pam-auth-stapp03.md
+│   ├── task-10-setup-nginx-ssl-stapp02.md
+├── LEVEL04/
+│   🚧 **Coming Soon**
 ```
 └── README.md
 ```
@@ -101,50 +108,28 @@ kodekloud-engineer-linux-solutions/
 | Task # | Title/Link | Status | Difficulty | Description |
 |--------|------------|--------|------------|-------------|
 | 1 | [**Install Cronie & Cron Job**](./LEVEL02/task-01-install-cronie-configure-cron-job-all-servers.md) | ✅ **Done** | 🟡 Intermediate | Install cronie and schedule recurring system tasks |
-
 | 2 | [**Update MOTD Banner**](./LEVEL02/task-02-update-motd-banner-all-servers.md) | ✅ **Done** | 🟢 Basic | Update the message of the day banner on all app servers |
-
 | 3 | [**Setup Collaborative Directory**](./LEVEL02/task-03-setup-collaborative-directory-dbadmin-stapp03.md) | ✅ **Done** | 🟡 Intermediate | Configure group-shared directories with SGID bit on stapp03 |
-
 | 4 | [**Text Manipulation (Grep/Sed)**](./LEVEL02/task-04-text-manipulation-grep-sed-stapp03.md) | ✅ **Done** | 🟡 Intermediate | Advanced log filtering and text processing on stapp03 |
-
 | 5 | [**Setup Passwordless SSH**](./LEVEL02/task-05-setup-passwordless-ssh-jump-to-all-servers.md) | ✅ **Done** | 🟡 Intermediate | Configure SSH key-based authentication from Jump Host |
-
 | 6 | [**Find & Copy PHP Files**](./LEVEL02/task-06-find-copy-php-files-preserve-structure-stapp02.md) | ✅ **Done** | 🟡 Intermediate | Find specific file types and migrate them to new directories |
-
 | 7 | [**Install Samba Package**](./LEVEL02/task-07-install-samba-package-all-servers.md) | ✅ **Done** | 🟡 Intermediate | Deploy Samba for file sharing across the Nautilus network |
-
 | 8 | [**Install Ansible (Pip3)**](./LEVEL02/task-08-install-ansible-4.9.0-jump-host-pip3.md) | ✅ **Done** | 🟡 Intermediate | Install specific Ansible version using python-pip on Jump Host |
-
 | 9 | [**Configure Local Yum Repo**](./LEVEL02/task-09-configure-local-yum-repository-backup-server.md) | ✅ **Done** | 🟡 Intermediate | Setup local package repository for offline updates on backup server |
 | 10 | [**Install Squid Proxy**](./LEVEL02/task-10-install-squid-all-app-servers.md) | ✅ **Done** | 🟡 Intermediate | Deploy Squid proxy server for managed internet access |
-
 | 11 | [**Allow Passwordless Sudo**](./LEVEL02/task-11-allow-passwordless-sudo-rose-all-app-servers.md) | ✅ **Done** | 🟡 Intermediate | Grant sudo privileges without password prompts to specific users |
-
 | 12 | [**Configure DNS Nameservers**](./LEVEL02/task-12-configure-dns-nameservers-stapp02.md) | ✅ **Done** | 🟢 Basic | Update resolver configuration for proper name resolution |
-
 | 13 | [**Configure Firewalld**](./LEVEL02/task-13-configure-firewalld-all-app-servers.md) | ✅ **Done** | 🟡 Intermediate | Setup persistent firewalld rules for application traffic |
-
 | 14 | [**Setup Postfix & Dovecot**](./LEVEL02/task-14-setup-postfix-dovecot-mail-server-stmail01.md) | ✅ **Done** | 🟡 Intermediate | Deploy Postfix and Dovecot mail servers on stmail01 |
-
 | 15 | [**Troubleshoot Postfix**](./LEVEL02/task-15-troubleshoot-postfix-service-stmail01.md) | ✅ **Done** | 🟡 Intermediate | Resolve issues with Postfix mail service on stmail01 |
-
 | 16 | [**Install & Configure HAProxy**](./LEVEL02/task-16-install-configure-haproxy-stlb01.md) | ✅ **Done** | 🟡 Intermediate | Deploy and configure HAProxy load balancer on stlb01 |
-
 | 17 | [**Troubleshoot HAProxy**](./LEVEL02/task-17-troubleshoot-haproxy-service-stlb01.md) | ✅ **Done** | 🟡 Intermediate | Resolve issues with HAProxy service on stlb01 |
-
 | 18 | [**Troubleshoot MariaDB**](./LEVEL02/task-18-troubleshoot-mariadb-service-stdb01.md) | ✅ **Done** | 🟡 Intermediate | Resolve issues with MariaDB database service on stdb01 |
-
 | 19 | [**Create Website Backup Script**](./LEVEL02/task-19-create-website-backup-script-stapp01.md) | ✅ **Done** | 🟡 Intermediate | Create a shell script for automated website backups on stapp01 |
-
 | 20 | [**Hardening Apache Headers**](./LEVEL02/task-20-hardening-apache-response-headers-stapp01.md) | ✅ **Done** | 🟡 Intermediate | Secure Apache by modifying response headers on stapp01 |
-
 | 21 | [**Troubleshoot Apache**](./LEVEL02/task-21-troubleshoot-apache-all-servers.md) | ✅ **Done** | 🟡 Intermediate | Resolve Apache service issues across all app servers |
-
 | 22 | [**GPG Data Encryption**](./LEVEL02/task-22-gpg-data-encryption-decryption-ststor01.md) | ✅ **Done** | 🟡 Intermediate | Encrypt and decrypt data using GPG on storage server |
-
 | 23 | [**Configure Logrotate**](./LEVEL02/task-23-configure-logrotate-httpd-all-servers.md) | ✅ **Done** | 🟡 Intermediate | Configure log rotation for Apache HTTPD on all servers |
-
 | 24 | [**Configure Iptables**](./LEVEL02/task-24-configure-iptables-backup-server.md) | ✅ **Done** | 🟡 Intermediate | Setup persistent iptables rules on the backup server |
 
 ---
@@ -153,11 +138,16 @@ kodekloud-engineer-linux-solutions/
 
 | Task # | Title/Link | Status | Difficulty | Description |
 |--------|------------|--------|------------|-------------|
-| 1 | [**Task Placeholder...**](#) | 🚧 **Coming Soon** | 🟠 Advanced | Tasks in Level 3 are being prepared... |
-| 2 | [**Task Placeholder...**](#) | 🚧 **Coming Soon** | 🟠 Advanced | Tasks in Level 3 are being prepared... |
-| 3 | [**Task Placeholder...**](#) | 🚧 **Coming Soon** | 🟠 Advanced | Tasks in Level 3 are being prepared... |
-| 4 | [**Task Placeholder...**](#) | 🚧 **Coming Soon** | 🟠 Advanced | Tasks in Level 3 are being prepared... |
-| 5 | [**Task Placeholder...**](#) | 🚧 **Coming Soon** | 🟠 Advanced | Tasks in Level 3 are being prepared... |
+| 1 | [**Apache URL Redirects**](./LEVEL03/task-01-configure-apache-url-redirects-stapp03.md) | ✅ **Done** | � Intermediate | Configure URL redirection in Apache on stapp03 |
+| 2 | [**Configure SFTP Server**](./LEVEL03/task-02-configure-sftp-server-stapp02.md) | ✅ **Done** | � Intermediate | Setup secure file transfer server on stapp02 |
+| 3 | [**Install & Configure Tomcat**](./LEVEL03/task-03-install-configure-tomcat-server-stapp03.md) | ✅ **Done** | 🟡 Intermediate | Deploy Apache Tomcat server on stapp03 |
+| 4 | [**Troubleshoot Apache Service**](./LEVEL03/task-04-troubleshoot-apache-service-stapp01.md) | ✅ **Done** | 🟠 Advanced | Identify and resolve Apache service errors on stapp01 |
+| 5 | [**Restrict Apache Port**](./LEVEL03/task-05-restrict-apache-port-iptables-all-servers.md) | ✅ **Done** | � Intermediate | Use iptables to restrict access to specific ports |
+| 6 | [**Nginx Reverse Proxy**](./LEVEL03/task-06-setup-nginx-reverse-proxy-apache-stbkp01.md) | ✅ **Done** | 🟠 Advanced | Setup Nginx as a reverse proxy for Apache on stbkp01 |
+| 7 | [**Apache Basic Auth**](./LEVEL03/task-07-configure-apache-basic-auth-stapp03.md) | ✅ **Done** | 🟡 Intermediate | Implement basic HTTP authentication for Apache |
+| 8 | [**Troubleshoot Apache Unavailability**](./LEVEL03/task-08-troubleshoot-apache-service-unavailability-stapp01.md) | ✅ **Done** | 🟠 Advanced | Troubleshoot why Apache service is not responding |
+| 9 | [**Apache PAM Auth**](./LEVEL03/task-09-configure-apache-pam-auth-stapp03.md) | ✅ **Done** | 🟠 Advanced | Configure Apache to use PAM for user authentication |
+| 10 | [**Setup Nginx SSL**](./LEVEL03/task-10-setup-nginx-ssl-stapp02.md) | ✅ **Done** | 🟠 Advanced | Configure SSL/TLS for Nginx web server on stapp02 |
 
 ---
 
@@ -182,6 +172,7 @@ kodekloud-engineer-linux-solutions/
 2. **Navigate to Task Files**:
    - Level 1 tasks: `LEVEL01/`
    - Level 2 tasks: `LEVEL02/`
+   - Level 3 tasks: `LEVEL03/`
 
 3. **Explore Solutions**:
    - Read the Markdown files to understand the requirements and the solution.
@@ -239,7 +230,7 @@ kodekloud-engineer-linux-solutions/
 - **Task Files**: Structured as `task-XX-description.md` for consistent navigation and search.
 - **Environment Specifics**: Always replace placeholder values like server names or IP addresses with your actual lab credentials.
 - **Permanence**: Use the `-P` or `--permanent` flag with `firewall-cmd` to ensure rules survive reboots.
-- **Level Completion**: Levels 1 and 2 are currently in progress, with Level 1 fully documented.
+- **Level Completion**: Levels 1, 2, and 3 are fully documented.
 
 ---
 
