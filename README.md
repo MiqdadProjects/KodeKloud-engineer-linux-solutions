@@ -71,8 +71,15 @@ kodekloud-engineer-linux-solutions/
 │   ├── task-09-configure-apache-pam-auth-stapp03.md
 │   ├── task-10-setup-nginx-ssl-stapp02.md
 ├── LEVEL04/
-│   🚧 **Coming Soon**
-```
+│   ├── task-01-configure-nginx-load-balancer-stlb01.md
+│   ├── task-02-troubleshoot-lemp-stack-configuration-all-app-servers.md
+│   ├── task-03-setup-postgresql-database-stdb01.md
+│   ├── task-04-automate-mariadb-operations-bash-script-stdb01.md
+│   ├── task-05-deploy-wordpress-lamp-stack-all-servers.md
+│   ├── task-06-install-configure-mariadb-stdb01.md
+│   ├── task-07-host-two-static-websites-alias-stapp03.md
+│   ├── task-08-configure-nginx-php-fpm-stapp03.md
+│   ├── task-09-configure-nginx-php-fpm-stapp01.md
 └── README.md
 ```
 
@@ -138,11 +145,11 @@ kodekloud-engineer-linux-solutions/
 
 | Task # | Title/Link | Status | Difficulty | Description |
 |--------|------------|--------|------------|-------------|
-| 1 | [**Apache URL Redirects**](./LEVEL03/task-01-configure-apache-url-redirects-stapp03.md) | ✅ **Done** | � Intermediate | Configure URL redirection in Apache on stapp03 |
-| 2 | [**Configure SFTP Server**](./LEVEL03/task-02-configure-sftp-server-stapp02.md) | ✅ **Done** | � Intermediate | Setup secure file transfer server on stapp02 |
+| 1 | [**Apache URL Redirects**](./LEVEL03/task-01-configure-apache-url-redirects-stapp03.md) | ✅ **Done** | 🟡 Intermediate | Configure URL redirection in Apache on stapp03 |
+| 2 | [**Configure SFTP Server**](./LEVEL03/task-02-configure-sftp-server-stapp02.md) | ✅ **Done** | 🟡 Intermediate | Setup secure file transfer server on stapp02 |
 | 3 | [**Install & Configure Tomcat**](./LEVEL03/task-03-install-configure-tomcat-server-stapp03.md) | ✅ **Done** | 🟡 Intermediate | Deploy Apache Tomcat server on stapp03 |
 | 4 | [**Troubleshoot Apache Service**](./LEVEL03/task-04-troubleshoot-apache-service-stapp01.md) | ✅ **Done** | 🟠 Advanced | Identify and resolve Apache service errors on stapp01 |
-| 5 | [**Restrict Apache Port**](./LEVEL03/task-05-restrict-apache-port-iptables-all-servers.md) | ✅ **Done** | � Intermediate | Use iptables to restrict access to specific ports |
+| 5 | [**Restrict Apache Port**](./LEVEL03/task-05-restrict-apache-port-iptables-all-servers.md) | ✅ **Done** | 🟡 Intermediate | Use iptables to restrict access to specific ports |
 | 6 | [**Nginx Reverse Proxy**](./LEVEL03/task-06-setup-nginx-reverse-proxy-apache-stbkp01.md) | ✅ **Done** | 🟠 Advanced | Setup Nginx as a reverse proxy for Apache on stbkp01 |
 | 7 | [**Apache Basic Auth**](./LEVEL03/task-07-configure-apache-basic-auth-stapp03.md) | ✅ **Done** | 🟡 Intermediate | Implement basic HTTP authentication for Apache |
 | 8 | [**Troubleshoot Apache Unavailability**](./LEVEL03/task-08-troubleshoot-apache-service-unavailability-stapp01.md) | ✅ **Done** | 🟠 Advanced | Troubleshoot why Apache service is not responding |
@@ -155,9 +162,15 @@ kodekloud-engineer-linux-solutions/
 
 | Task # | Title/Link | Status | Difficulty | Description |
 |--------|------------|--------|------------|-------------|
-| 1 | [**Task Placeholder...**](#) | 🚧 **Coming Soon** | 🔴 Critical | Tasks in Level 4 are being prepared... |
-| 2 | [**Task Placeholder...**](#) | 🚧 **Coming Soon** | 🔴 Critical | Tasks in Level 4 are being prepared... |
-| 3 | [**Task Placeholder...**](#) | 🚧 **Coming Soon** | 🔴 Critical | Tasks in Level 4 are being prepared... |
+| 1 | [**Configure Nginx Load Balancer**](./LEVEL04/task-01-configure-nginx-load-balancer-stlb01.md) | ✅ **Done** | 🔴 Critical | Install and configure Nginx as a round-robin load balancer on stlb01 |
+| 2 | [**Troubleshoot LEMP Stack**](./LEVEL04/task-02-troubleshoot-lemp-stack-configuration-all-app-servers.md) | ✅ **Done** | 🔴 Critical | Fix Nginx and PHP-FPM misconfigurations across all app servers |
+| 3 | [**Setup PostgreSQL Database**](./LEVEL04/task-03-setup-postgresql-database-stdb01.md) | ✅ **Done** | 🟠 Advanced | Create PostgreSQL user, database, and grant full privileges |
+| 4 | [**Automate MariaDB Operations**](./LEVEL04/task-04-automate-mariadb-operations-bash-script-stdb01.md) | ✅ **Done** | � Critical | Write a Bash script to automate MariaDB backup and operations |
+| 5 | [**Deploy WordPress LAMP Stack**](./LEVEL04/task-05-deploy-wordpress-lamp-stack-all-servers.md) | ✅ **Done** | 🔴 Critical | Full LAMP stack deployment with WordPress CMS across app servers |
+| 6 | [**Install & Configure MariaDB**](./LEVEL04/task-06-install-configure-mariadb-stdb01.md) | ✅ **Done** | 🟠 Advanced | Install MariaDB and configure users, databases, and access rules |
+| 7 | [**Host Two Static Websites (Alias)**](./LEVEL04/task-07-host-two-static-websites-alias-stapp03.md) | ✅ **Done** | � Advanced | Configure Apache virtual hosts with aliases for two sites on stapp03 |
+| 8 | [**Configure Nginx & PHP-FPM (stapp03)**](./LEVEL04/task-08-configure-nginx-php-fpm-stapp03.md) | ✅ **Done** | 🔴 Critical | Setup Nginx with PHP-FPM and FastCGI integration on stapp03 |
+| 9 | [**Configure Nginx & PHP-FPM (stapp01)**](./LEVEL04/task-09-configure-nginx-php-fpm-stapp01.md) | ✅ **Done** | 🔴 Critical | Setup Nginx with PHP-FPM and FastCGI integration on stapp01 |
 
 ---
 
@@ -173,6 +186,7 @@ kodekloud-engineer-linux-solutions/
    - Level 1 tasks: `LEVEL01/`
    - Level 2 tasks: `LEVEL02/`
    - Level 3 tasks: `LEVEL03/`
+   - Level 4 tasks: `LEVEL04/`
 
 3. **Explore Solutions**:
    - Read the Markdown files to understand the requirements and the solution.
@@ -230,7 +244,7 @@ kodekloud-engineer-linux-solutions/
 - **Task Files**: Structured as `task-XX-description.md` for consistent navigation and search.
 - **Environment Specifics**: Always replace placeholder values like server names or IP addresses with your actual lab credentials.
 - **Permanence**: Use the `-P` or `--permanent` flag with `firewall-cmd` to ensure rules survive reboots.
-- **Level Completion**: Levels 1, 2, and 3 are fully documented.
+- **Level Completion**: All 4 levels are fully documented.
 
 ---
 
@@ -253,6 +267,6 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ## 📞 Contact
 
-For questions regarding these solutions or the CodeCloud Engineer challenge, please reach out via the repository’s issue tracker.
+For questions regarding these solutions or the KodeKloud Engineer challenge, please reach out via the repository's issue tracker.
 
 **Happy Linuxing!** 🚀
